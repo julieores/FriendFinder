@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Survey</title>
+
+<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+	
+		<h1>FriendFinder Survey</h1>
+		<hr>
+		<form role="form" id="survey">
+			<h2>About you</h2>
+			<div class="form-group">
+				<label for="usr">Name: (Required)</label>
+				<input type="text" class="form-control" id="name">
+			</div>
+			<div class="form-group">
+				<label for="pic">URL for Photo: (Required)</label>
+				<input type="text" class="form-control" id="pic">
+				<p>Generic Man: http://clipartix.com/wp-content/uploads/2016/05/Stick-figure-construction-worker-clipart-image-clip-art-a.jpg<p>
+				<p>Generic Woman: https://s-media-cache-ak0.pinimg.com/236x/a1/01/50/a1015051b09805f58525240c87b5c50b.jpg</p>
+			</div>
+			<hr>
+			<h2>Rate how strongly you agree with the following statements:</h2>
+
+			<div class="row col-lg-12">
+				<h3>Question 1</h3>
+				<h4>I consider myself an extrovert.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest1">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 2</h3>
+				<h4>I like could eat pizza five times per week.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest2">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 3</h3>
+				<h4>I would prefer to dance in the rain than at a capacity filled United Center.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest3">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 4</h3>
+				<h4>I would rather find a local spot on vacation vs. a popular spot.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest4">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 5</h3>
+				<h4>I prefer swimming to biking or running.</h4>
+				<div class="form-.group col-xs-3">
+					<select class="form-control" id="quest5">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 6</h3>
+				<h4>I'm a big fan of the original Charlie & the Chocolate Factory movie.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest6">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 7</h3>
+				<h4>I am close to my family.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest7">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 8</h3>
+				<h4>I like to spend my time at the beach during the summer when I can.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest8">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 9</h3>
+				<h4>I invest in the hottest technologies.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest9">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="row col-lg-12">
+				<h3>Question 10</h3>
+				<h4>I would rather have a small, close group of friends than a large one.</h4>
+				<div class="form-group col-xs-3">
+					<select class="form-control" id="quest10">
+						<option>1 (Strongly Disagree)</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5 (Strongly Agree)</option>
+					</select>
+				</div>
+			</div>
+			
+			<button type="button" class="btn btn-primary btn-block" id="submit">Submit</button>
+	
+		</form>
