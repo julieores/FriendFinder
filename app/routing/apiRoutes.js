@@ -22,7 +22,8 @@ module.exports = function (app) {
 
             for (var i = 0; i < (friendsArray.length - 1); i++) {
 
-                // consolidate each array of scores to a single score or value (look into array.reduce)
+                // consolidate each array of scores to a single score or value
+                //array.reduce - totals numbers in the array
                 // figure out what index in our friends array belongs to the lowest single value score
                 for (var j = 0; j < 10; j++) {
                     totalDifference += Math.abs(friendsArray[i].scores[j] - newFriend.scores[j]);
