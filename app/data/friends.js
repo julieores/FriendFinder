@@ -1,4 +1,4 @@
-var friendsArray = [{
+var friends = [{
     name: "Rachel Green",
     photo: "https://vignette.wikia.nocookie.net/friends/images/1/1b/Rachel_haircut.jpg/revision/latest?cb=20150503022311rs",
     scores: [1, 3, 4, 2, 2, 3, 1, 5, 2, 2]

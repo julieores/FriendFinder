@@ -1,5 +1,5 @@
 var express = require("express");
-var pass = require("path");
+var path = require("path");
 var bodyParser = require("body-parser")
 
 var app = express();
@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.text());
 
 require('./app/routing/htmlRoutes.js')(app);
-require('.app/routing/apiRoutes.js')(app);
+require('./app/routing/apiRoutes.js')(app);
 
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
